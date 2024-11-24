@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T12:00:00.000Z" type="device">
+  <diagram id="airbnb_backend" name="Airbnb Backend Architecture">
+    <mxGraphModel dx="1050" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Core Systems -->
+        <mxCell id="2" value="User Management System&#xa;- User Registration&#xa;- User Login and Authentication&#xa;- Profile Management&#xa;- Authentication and Authorization" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="3" value="Property Management&#xa;- Add Listings&#xa;- Edit/Delete Listings" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="12" value="Search and Filtering&#xa;- Search by Location&#xa;- Price Range&#xa;- Number of Guests&#xa;- Amenities&#xa;- Pagination" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="4" value="Booking Management&#xa;- Booking Creation&#xa;- Booking Cancellation&#xa;- Booking Status" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="760" y="40" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Supporting Systems -->
+        <mxCell id="5" value="Payment System&#xa;- Process Payments&#xa;- Handle Refunds&#xa;- Payout Management&#xa;- Transaction History&#xa;- Multiple Currencies" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="6" value="Reviews and Ratings&#xa;- Create Review&#xa;- Manage Ratings&#xa;- Host Responses&#xa;- Moderation" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="7" value="Notifications System&#xa;- Email Notifications&#xa;- In-App Notifications&#xa;- Push Notifications&#xa;- Status Updates" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="13" value="Admin Dashboard&#xa;- Monitor Users&#xa;- Manage Listings&#xa;- Manage Bookings&#xa;- Manage Payments" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="760" y="200" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Database and External Services -->
+        <mxCell id="8" value="Database Schema&#xa;- Users&#xa;- Properties&#xa;- Bookings&#xa;- Reviews&#xa;- Payments" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="9" value="External Integrations&#xa;- Payment Gateway&#xa;- Email Service&#xa;- File Storage&#xa;- Maps API" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell id="10" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="14" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="3" target="12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="11" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="12" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="15" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="16" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="17" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="18" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="2" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="19" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="3" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="20" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="4" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="21" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="5" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections to Database -->
+        <mxCell id="22" value="" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1" source="2" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="23" value="" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1" source="3" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="24" value="" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1" source="4" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="25" value="" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1" source="6" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="26" value="" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1" source="5" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections to External Integrations -->
+        <mxCell id="27" value="" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="28" value="" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1" source="7" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="29" value="" style="dashed=1;endArrow=none;html=1;" edge="1" parent="1" source="3" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Non-Functional Requirements (Annotations) -->
+        <mxCell id="30" value="Scalability&#xa;- Modular Architecture&#xa;- Horizontal Scaling with Load Balancers" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#e1e1e1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="220" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="31" value="Security&#xa;- Data Encryption&#xa;- Firewalls&#xa;- Rate Limiting" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#e1e1e1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="220" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="32" value="Performance Optimization&#xa;- Caching with Redis&#xa;- Optimized Database Queries" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#e1e1e1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="220" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="33" value="Testing&#xa;- Unit and Integration Tests&#xa;- Automated API Testing" style="text;html=1;align=left;verticalAlign=top;spacingLeft=10;fillColor=#e1e1e1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="480" width="220" height="60" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
