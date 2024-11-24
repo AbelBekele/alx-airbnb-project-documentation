@@ -143,18 +143,10 @@ This repository contains all the documentation, diagrams, and specifications req
 To get started with this project:
 
 1.  **Clone** the repository:
-    
-    bash
-    
-    Copy code
-    
+
     `git clone https://github.com/AbelBekele/alx-airbnb-project-documentation.git` 
     
 2.  **Navigate** to the repository directory:
-    
-    bash
-    
-    Copy code
     
     `cd alx-airbnb-project-documentation` 
     
